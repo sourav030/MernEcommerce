@@ -1,0 +1,21 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Prata&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    font-family: Outfit;
+}
+
+.active{
+    background-color: #ffebf5;
+    border-color: A5#C586;
+}
+
+select, input, textarea{
+    border:1px solid ,#c2c2c2;
+    outline-color: #C586A5;
+    border-radius: 4px;
+}
